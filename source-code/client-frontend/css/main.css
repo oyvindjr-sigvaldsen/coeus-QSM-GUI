@@ -1,0 +1,92 @@
+* {
+	outline: none;
+	list-style-type: none;
+}
+
+#left-column {
+	margin: 0 0 0 30px;
+	float: left;
+	width: 38%
+}
+
+#right-column {
+	float: right;
+	width: 62%
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#progress-bar {
+	border: 1px solid #ddd;
+	width: 95vw;
+	background-color: white;
+
+	margin: 10px 30px 0 30px;
+}
+
+#bar {
+	width: 1%;
+	height: 30px;
+	background-color: #ddd;
+}
+
+#responsive-tickers-table {
+
+	overflow-y: auto;
+	height: 80vh;
+}
+
+#search-tickers-table-input {
+	width: 583px;
+	margin: 10px 0 20px 0;
+	padding: 8px;
+
+	color: black;
+}
+
+table {
+	width: 600px;
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  	border: 1px solid #ddd;
+
+  	text-align: left;
+
+	transform: translate3d(0, 0, 0);
+	transform: rotateX(0deg);
+	cursor: grab;
+}
+
+thead {
+	background-color: #f2f2f2;
+}
+
+td, th {
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	width: 200px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.ticker-table-tr:hover {
+	border: 1px solid black;
+}
+
+.download-button {
+
+	padding: 8px;
+	margin: 20px 0 0 0;
+
+	background-color: white;
+	border: 1px solid #ddd;
+}
