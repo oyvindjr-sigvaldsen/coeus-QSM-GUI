@@ -32,12 +32,12 @@ def main():
 		dates = [datetime(2015, 1, 1), datetime.today()]
 
 		historical_data_df = get_historical_data(
-												str(ticker_instance.ticker),
-												dates[0],
-												dates[1],
-												output_format='pandas',
-												token = "sk_2db5017408dd4101b05d411f9d7f44b9"
-												)
+							str(ticker_instance.ticker),
+							dates[0],
+							dates[1],
+							output_format='pandas',
+							token = "sk_2db5017408dd4101b05d411f9d7f44b9"
+							)
 
 		return historical_data_df
 
