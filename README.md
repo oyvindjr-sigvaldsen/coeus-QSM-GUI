@@ -1,5 +1,6 @@
 # coeus
-
+&nbsp; <img src="https://github.com/oyvindjr-sigvaldsen/coeus/blob/master/coeus_documentation_banner.jpg">
+&nbsp;
 <h3>Languages</h3>
 A QSM (quantitative statistical model) that takes past quantitative data in the form of past adjusted close prices to predict future stock prices. The majority of the backend of the coeus QSM was written using Python (--v 2.7), with minor PHP (--v 5.6) scripts to handle connecting and pulling data from MySQL relational databases. The frontend is written using basic HTML and CSS markup, with added functionality from JavaScript through the Angular framework. Historical data for this project was pulled using the IEX Finance API, which returned requested data in the form of Pandas DF's(dataframes).
 
